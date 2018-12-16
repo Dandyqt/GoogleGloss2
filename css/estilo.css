@@ -1,0 +1,198 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	background: #BDBDBD;
+	font-size: 0.8em;
+
+}
+
+p {
+	text-indent: 50px;
+	text-align: justify;
+}
+
+#filme-index {
+	
+	
+	width: 250px;
+
+}
+.video-principal {
+	border:3px solid #fff;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+.video-oque-fazer {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 600px;
+}
+#titulo h1 {
+	font-family: 'Spicy Rice', cursive;
+	color: #585858;
+	font-weight: bolder;
+}
+
+#titulo h2 {
+	font-family: 'Spicy Rice', cursive;
+	color: #BDBDBD;
+	font-size: 1em;
+}
+
+#sub-titulos h3 {
+	
+	font-family: 'Spicy Rice', cursive;
+	color: #6E6E6E;
+	font-size: 1em;
+}
+
+#sub-titulos h1{
+	font-family: 'Spicy Rice', cursive;
+	color: #585858;
+	font-weight: bolder;
+}
+#outrasNoticias h1 {
+	font-family: 'Spicy Rice', cursive;
+}
+
+.cabecalho {
+	margin-left: 0px;
+	background: url('../img/glass-logo-peq.jpg') no-repeat ;
+	background-position: left bottom; 
+	background-attachment: fixed
+	padding: 5px;
+	margin-top: -5px;
+	height: 150px;
+	border-bottom: 1px solid #000;
+
+
+}
+.area-principal {
+	box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+	width: 950px;
+	
+	padding: 15px;
+	background: #fff;
+	margin: auto;
+}
+
+.foto {
+	position: relative;
+	margin-left: 0;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	width:600px;
+	height: 100%;
+}
+
+figure.foto figcaption {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,0.4);
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+figure.foto:hover  figcaption{
+	opacity: 1;
+}
+
+table {
+	margin-left: 25%;
+	border-spacing: 0px;
+}
+tr th {
+	
+	color: #fff;
+	background: #585858;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+tr td {
+
+	padding: 5px;
+	background: #BDBDBD;
+}
+
+.corpo {
+	display: block;
+	padding: 10px;
+	width: 650px;
+	border-right: 1px solid #BDBDBD;
+	float: left;
+}
+
+.corpo h2 {
+	padding: 5px;
+	background: #BDBDBD;
+	color:#585858; 
+}
+
+.lateral h2 {
+	font-size: 1em;
+	background: #585858;
+	color: #fff;
+	padding: 10px;
+}
+.lateral {
+	margin-top: 10px;
+	position: relative;
+	background: #BDBDBD;
+	display: block;
+	width: 250px;
+	float: right;
+	padding: 10px;
+}
+
+#icone {
+
+	margin-top: -60px;
+	margin-right: 0px;
+	float: right;
+	
+}
+#menu  ul {
+	
+	margin-right: -10px;
+	margin-top: -25px;
+	
+	float: right;
+	list-style: none;
+
+}
+
+#menu ul li {
+	display: inline;
+	background: #BDBDBD;
+	padding: 10px;
+	
+
+}
+
+#menu ul li a {
+	
+	display: inline-block;
+	
+	
+	/* Visual do link*/
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+#menu ul li a:hover {
+	
+	color: red;
+
+
+}
+
+footer {
+	padding: 10px;
+	margin: 5px;
+	border-top: 1px solid #BDBDBD;
+	text-align: center;
+	clear: both;
+}
